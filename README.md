@@ -8,6 +8,7 @@
 
 A personal gallery application that enables the administrator to post images to the websites, users are able to see the images nd copy link for download. A user clicks on an image to view details.
 ## User Stories
+
 -As a user of the application I should be able to:
 
 1. View different photos that interest me.
