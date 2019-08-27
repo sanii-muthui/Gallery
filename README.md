@@ -62,6 +62,6 @@ Run  python3.6 manage.py test imageapp
 
 In need of support please reach me at 'muthuisanii@gmail.com' for any queries.
 
-## License
+## Licenses
 
 IHUB LICENSE [Sanii-Muthui][2019]
