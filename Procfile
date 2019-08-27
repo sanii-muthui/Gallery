@@ -1,0 +1,1 @@
+web: gunicorn GPhotos.wsgi --log-file -
