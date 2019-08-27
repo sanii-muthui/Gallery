@@ -34,14 +34,16 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django-bootstrap4',
+    '
+    bootstrap4',
+    'imageapp.apps.ImageappConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'imageapp',
+    # 'imageapp',
 ]
 
 MIDDLEWARE = [
@@ -103,10 +105,10 @@ else:
            default=config('DATABASE_URL')
        )
    }
-​
+
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
-​
+
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 # Password validation
