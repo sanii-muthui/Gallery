@@ -33,14 +33,10 @@ class Article(models.Model):
         news = cls.objects.filter(pub_date__date = date)
         return news
     @classmethod
-    def location(cls):
-        news = cls.objects.all()
+    def search_by_title(cls,search_term):
+        news = cls.objects.filter(title__icontains=search_term)
         return news
-    @classmethod
-    def search_by_cat(cls, search_term):
-        news=cls.objects.filter(category__icontains=search_term)
-        return news
-
+        
 class Category(models.Model):
     name = models.CharField(max_length =30, null=True)
 
