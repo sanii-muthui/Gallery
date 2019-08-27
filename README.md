@@ -35,7 +35,7 @@ Clone the application using git clone. In the terminal:
 
 
 ## Testing the Application
-To run the tests for the class file:
+To run the tests for the class:
 Run  python3.6 manage.py test imageapp
 
 
