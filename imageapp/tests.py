@@ -24,7 +24,7 @@ class ArticleTestClass(TestCase):
         self.james= Editor(first_name = 'James', last_name ='Muriuki', email ='james@moringaschool.com')
         self.james.save_editor()
 
-        # Creating a new tag and saving it
+        # Creating a new tag and saving it here
         self.new_tag = tags(name = 'testing')
         self.new_tag.save()
 
