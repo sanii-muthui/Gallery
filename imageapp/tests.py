@@ -20,7 +20,7 @@ class EditorTestClass(TestCase):
 class ArticleTestClass(TestCase):
 
     def setUp(self):
-        # Creating a new editor and saving it
+        # Creating a new editor and saving it here
         self.james= Editor(first_name = 'James', last_name ='Muriuki', email ='james@moringaschool.com')
         self.james.save_editor()
 
